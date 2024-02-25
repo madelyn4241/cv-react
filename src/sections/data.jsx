@@ -115,8 +115,8 @@ const projectsEN = [
   },
   {
     icon: "global.svg",
-    name: "http://localhost:5175",
-    link: "http://localhost:5175",
+    name: "https://madelyn4241.github.io/ToDo/",
+    link: "https://madelyn4241.github.io/ToDo/",
     year: 2024,
     description: [
       "The To-Do List website is a user-friendly task management application with a visually appealing interface, allowing users to add, remove, and mark tasks as completed in a clean and organized manner."

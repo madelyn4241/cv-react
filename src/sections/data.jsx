@@ -147,6 +147,7 @@ const educationEN = [
   }
 ];
 
+
 export const footer = <div>Built with React Last Update 2/24/2024</div>
 export const headline = LANG === 'EN' ? headlineCN : headlineEN;
 

@@ -147,41 +147,6 @@ const educationEN = [
     time: "Currently enrolled, expected completion March 2024"
   }
 ];
-const educationEN = [
-  {
-    icon: "VSU.png",
-    school: "Valdosta State University",
-    degree: "Bachelor's in Computer Information Systems",
-    loc: "Valdosta, GA ",
-    time: "2020 ~ 2024, 4 years",
-    description: [
-      "GPA: 3.5"
-    ]
-  },
-  {
-    icon: "treehouse.png",
-    school: "Treehouse",
-    degree: "Certificate in Front End Web Development",
-    loc: "www.treehouse.com",
-    time: "Completed in 2024"
-  },
-  {
-    icon: "treehouse.png",
-    school: "Treehouse",
-    degree: "Certificate in Java Basics",
-    loc: "www.treehouse.com",
-    time: "Completed in 2023"
-  },
-  {
-    icon: "google.png",
-    school: "Google",
-    degree: "Certificate in Java Basics",
-    loc: "www.treehouse.com",
-    time: "Currently enrolled, expected completion March 2024"
-  }
-];
-
-
 
 export const footer = <div>Built with React Last Update 2/24/2024</div>
 export const headline = LANG === 'EN' ? headlineCN : headlineEN;

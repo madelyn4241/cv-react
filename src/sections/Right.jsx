@@ -5,25 +5,25 @@ import { education, experience, projects, educationTitle, experienceTitle, proje
 
 function Experience() {
   return (
-    <div class="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
-      <h2 class="font-bold text-xl mb-2">{experienceTitle}</h2>
+    <div className="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
+      <h2 className="font-bold text-xl mb-2">{experienceTitle}</h2>
       {experience.map((item) => (
-        <div class="flex flex-row gap-2 items-start mb-2">
-          <img class="h-12 w-12 rounded-2xl" src={item.icon} />
-          <div class="flex flex-col">
-            <div class="flex flex-row justify-between items-center">
-              <div class="text-lg font-bold">{item.company}</div>
-              <div class="text-sm text-primary-content">{item.loc}</div>
+        <div className="flex flex-row gap-2 items-start mb-2" key={item.company}>
+          <img className="h-12 w-12 rounded-2xl" src={item.icon} alt={`${item.company} logo`} />
+          <div className="flex flex-col">
+            <div className="flex flex-row justify-between items-center">
+              <div className="text-lg font-bold">{item.company}</div>
+              <div className="text-sm text-primary-content">{item.loc}</div>
             </div>
 
-            <div class="flex flex-row justify-between items-center">
-              <div class="text-md font-bold">{item.pos}</div>
-              <div class="text-sm text-primary-content">{item.time}</div>
+            <div className="flex flex-row justify-between items-center">
+              <div className="text-md font-bold">{item.pos}</div>
+              <div className="text-sm text-primary-content">{item.time}</div>
             </div>
 
             <div>
-              {item.description.map((p) => (
-                <p class='text-sm text-justify'>{p}</p>
+              {item.description && item.description.map((p, index) => (
+                <p key={index} className='text-sm text-justify'>{p}</p>
               ))}
             </div>
           </div>
@@ -32,6 +32,7 @@ function Experience() {
     </div>
   );
 }
+
 
 
 function Projects() {

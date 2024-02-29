@@ -136,15 +136,24 @@ const educationEN = [
     description: [
       "GPA: 3.5"
     ],
-    icon: "VSU.png",
+    icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Front End Web Development",
     loc: "www.treehouse.com",
+    time: "Completed in 2024",
     
-     icon: "VSU.png",
+     icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Java Basics",
     loc: "www.treehouse.com",
+    time: "Completed in 2023",
+    
+      icon: "google.png",
+    school: "Google",
+    degree: "Certificate in Java Basics",
+    loc: "www.treehouse.com",
+    time: "Currently enrolled, expected completion March 2024",
+    
   },
 ];
 

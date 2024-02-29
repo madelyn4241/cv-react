@@ -1,7 +1,7 @@
 const LANG = 'EN'  // EN, CN
 
 
-const headlineEN = "Computer Information Systems graduate with hands-on experience in Python and React, seeking an entry-level tech position to apply skills in web development and problem-solving.";
+const headlineEN = "Computer Information Systems graduate with hands-on experience in Java and React, seeking an entry-level tech position to apply skills in web development and problem-solving.";
 
 const infoEN = {
   contact: [
@@ -158,7 +158,7 @@ const educationEN = [
 
 
 
-export const footer = <div>Built with React Last Update 1/12/2024</div>
+export const footer = <div>Built with React Last Update 2/29/2024</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN

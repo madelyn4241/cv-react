@@ -151,9 +151,10 @@ export const footer = <div>Built with React Last Update 2/24/2024</div>;
 
 export const headline = LANG === 'CN' ? headlineCN : headlineEN;
 export const info = infoEN;
-export const projects = LANG === 'CN' ? projectsCN : projectsEN;
-export const experience = LANG === 'CN' ? experienceCN : experienceEN;
+export const projects = LANG === 'EN' ? projectsEN : projectsCN;
+export const experience = LANG === 'EN' ? experienceEN : experienceCN;
 export const education = LANG === 'EN' ? educationEN : educationCN;
+
 
 export const projectTitle = LANG === 'EN' ? 'Open_source Projects' : 'Open-source Projects';
 export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : 'Relevant Experience';

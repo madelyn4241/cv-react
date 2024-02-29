@@ -150,7 +150,7 @@ const educationEN = [
     icon: "google.png",
     school: "Google",
     degree: "Google Cybersecurity Certificate",
-    loc: "www.treehouse.com",
+    loc: "www.coursera.org",
     time: "Expected completion: March 2024",
     description: [" "],
   },

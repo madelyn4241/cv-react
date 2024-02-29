@@ -1,39 +1,36 @@
-const LANG = 'EN'
+const LANG = 'EN';
 
-
-const headlineCN = "Computer Information Systems graduate seeking entry level tech position. "
+const headlineCN = "Computer Information Systems graduate seeking entry level tech position. ";
 
 const infoEN = {
   contact: [
     {
-      icon: <i class="ri-mail-send-line"></i>,
+      icon: <i className="ri-mail-send-line"></i>,
       name: "maddi.a42436@gmail.com",
       url: "mailto:maddi.a42436@gmail.com",
     },
     {
-      icon: <i class="ri-phone-line"></i>,
+      icon: <i className="ri-phone-line"></i>,
       name: "4709059161",
       url: "",
     },
     {
-      icon: <i class="ri-github-fill"></i>,
+      icon: <i className="ri-github-fill"></i>,
       name: "GitHub - madelyn4241",
       url: "https://github.com/madelyn4241",
     },
     {
-      icon: <i class="ri-linkedin-box-fill"></i>,
+      icon: <i className="ri-linkedin-box-fill"></i>,
       name: "LinkedIn - Madelyn Adams",
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
-
   ],
-  language: [ "English (native)", "Italian (beginner)"],
+  language: ["English (native)", "Italian (beginner)"],
   techstack: [
     {
       icon: "python.png",
       name: "Python",
     },
-
     {
       icon: "js.png",
       name: "JavaScript",
@@ -42,7 +39,6 @@ const infoEN = {
       icon: "react.svg",
       name: "React",
     },
-
     {
       icon: "html.png",
       name: "HTML",
@@ -51,16 +47,12 @@ const infoEN = {
       icon: "css.png",
       name: "CSS",
     },
-
     {
       icon: "vite.png",
       name: "Vite",
     },
   ],
 };
-
-
-
 
 const experienceEN = [
   {
@@ -100,9 +92,6 @@ const experienceEN = [
   },
 ];
 
-
-
-
 const projectsEN = [
   {
     icon: "global.svg",
@@ -123,11 +112,6 @@ const projectsEN = [
     ],
   }
 ];
-
-
-
-
-
 
 const educationEN = [
   {
@@ -164,7 +148,7 @@ const educationEN = [
 ];
 
 export const footer = <div>Built with React Last Update 2/24/2024</div>
-export const headline = LANG == 'EN' ? headlineCN : headlineEN
+export const headline = LANG === 'EN' ? headlineCN : headlineEN;
 
 // ... (other code)
 
@@ -172,14 +156,14 @@ export const info = infoEN;
 
 // ... (other code)
 
-export const projects = LANG == 'CN' ? projectsCN : projectsEN
-export const experience = LANG == 'CN' ? experienceCN : experienceEN
-export const education = LANG == 'CN' ? educationCN : educationEN
+export const projects = LANG === 'CN' ? projectsCN : projectsEN;
+export const experience = LANG === 'CN' ? experienceCN : experienceEN;
+export const education = LANG === 'CN' ? educationCN : educationEN;
 
-export const projectTitle = LANG == 'EN' ? 'Open_source Projects' : 'Open-source Projects'
-export const experienceTitle = LANG == 'EN' ? 'Relevant Experience' : 'Relevant Experience'
-export const educationTitle = LANG == 'EN' ? 'Education' : 'Education'
-export const contactTitle = LANG == 'EN' ? 'Contacts' : 'Contacts'
-export const languageTitle = LANG == 'EN' ? 'Langugages' : 'Languages'
-export const techstackTitle = LANG == 'EN' ? 'Tech Stack' : 'Tech Stack'
+export const projectTitle = LANG === 'EN' ? 'Open_source Projects' : 'Open-source Projects';
+export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : 'Relevant Experience';
+export const educationTitle = LANG === 'EN' ? 'Education' : 'Education';
+export const contactTitle = LANG === 'EN' ? 'Contacts' : 'Contacts';
+export const languageTitle = LANG === 'EN' ? 'Languages' : 'Languages';
+export const techstackTitle = LANG === 'EN' ? 'Tech Stack' : 'Tech Stack';
 // export const footer = LANG == 'CN' ? footerCN : footerEN

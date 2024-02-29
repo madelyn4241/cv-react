@@ -1,6 +1,6 @@
-const LANG = 'EN';
+const LANG = 'EN';  // EN, CN
 
-const headlineCN = "Computer Information Systems graduate seeking entry level tech position. ";
+const headlineEN = "Computer Information Systems graduate seeking entry level tech position.";
 
 const infoEN = {
   contact: [
@@ -99,7 +99,7 @@ const projectsEN = [
     link: "https://madelyn4241.github.io/learnReactJs/",
     year: 2024,
     description: [
-      "The 'Build a Hero' web application using React and Vite that integrates user interactions. "
+      "The 'Build a Hero' web application using React and Vite that integrates user interactions."
     ],
   },
   {
@@ -113,13 +113,12 @@ const projectsEN = [
   }
 ];
 
-
 const educationEN = [
   {
     icon: "VSU.png",
     school: "Valdosta State University",
     degree: "Bachelor's in Computer Information Systems",
-    loc: "Valdosta, GA ",
+    loc: "Valdosta, GA",
     time: "2020 ~ 2024, 4 years",
     description: [
       "GPA: 3.5"
@@ -148,15 +147,10 @@ const educationEN = [
   }
 ];
 
-export const footer = <div>Built with React Last Update 2/24/2024</div>
-export const headline = LANG === 'EN' ? headlineCN : headlineEN;
+export const footer = <div>Built with React Last Update 2/24/2024</div>;
 
-// ... (other code)
-
+export const headline = LANG === 'CN' ? headlineCN : headlineEN;
 export const info = infoEN;
-
-// ... (other code)
-
 export const projects = LANG === 'CN' ? projectsCN : projectsEN;
 export const experience = LANG === 'CN' ? experienceCN : experienceEN;
 export const education = LANG === 'EN' ? educationCN : educationEN;
@@ -167,4 +161,4 @@ export const educationTitle = LANG === 'EN' ? 'Education' : 'Education';
 export const contactTitle = LANG === 'EN' ? 'Contacts' : 'Contacts';
 export const languageTitle = LANG === 'EN' ? 'Languages' : 'Languages';
 export const techstackTitle = LANG === 'EN' ? 'Tech Stack' : 'Tech Stack';
-// export const footer = LANG == 'CN' ? footerCN : footerEN
+// export const footer = LANG == 'CN' ? footerCN : footerEN;

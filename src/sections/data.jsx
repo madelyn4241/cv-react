@@ -27,7 +27,7 @@ const infoEN = {
     },
      {
       icon: <i className="ri-website-box-fill"></i>,
-      name: "Website - www.madelyn-adams-resume.com",
+      name: "Website - madelyn-adams-resume",
       url: "www.madelyn-adams-resume.com",
     },
   ],

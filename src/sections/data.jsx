@@ -159,7 +159,7 @@ export const info = infoEN;
 
 export const projects = LANG === 'CN' ? projectsCN : projectsEN;
 export const experience = LANG === 'CN' ? experienceCN : experienceEN;
-export const education = LANG === 'CN' ? educationCN : educationEN;
+export const education = LANG === 'EN' ? educationCN : educationEN;
 
 export const projectTitle = LANG === 'EN' ? 'Open_source Projects' : 'Open-source Projects';
 export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : 'Relevant Experience';

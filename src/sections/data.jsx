@@ -1,9 +1,9 @@
 const LANG = 'EN';  // EN, CN
 
-const headlineEN = "Computer Information Systems graduate seeking entry level tech position.";
+const headlineEN = "Computer Information Systems graduate with hands-on experience in Python and React, seeking an entry-level tech position to apply skills in web development and problem-solving.";
 
 const infoEN = {
-  contact: [
+    contact: [
     {
       icon: <i className="ri-mail-send-line"></i>,
       name: "maddi.a42436@gmail.com",
@@ -55,7 +55,7 @@ const infoEN = {
 };
 
 const experienceEN = [
-  {
+    {
     icon: "Synovus.png",
     company: "Synovus Bank",
     pos: "Relationship Specialist",
@@ -93,13 +93,13 @@ const experienceEN = [
 ];
 
 const projectsEN = [
-  {
+    {
     icon: "global.svg",
     name: "https://madelyn4241.github.io/learnReactJs/",
     link: "https://madelyn4241.github.io/learnReactJs/",
     year: 2024,
     description: [
-      "The 'Build a Hero' web application using React and Vite that integrates user interactions."
+      "The 'Build a Hero' web application using React and Vite that integrates user interactions. "
     ],
   },
   {
@@ -111,14 +111,15 @@ const projectsEN = [
       "The To-Do List website is a user-friendly task management application with a visually appealing interface, allowing users to add, remove, and mark tasks as completed in a clean and organized manner."
     ],
   }
+
 ];
 
 const educationEN = [
-  {
+    {
     icon: "VSU.png",
     school: "Valdosta State University",
     degree: "Bachelor's in Computer Information Systems",
-    loc: "Valdosta, GA",
+    loc: "Valdosta, GA ",
     time: "2020 ~ 2024, 4 years",
     description: [
       "GPA: 3.5"
@@ -147,19 +148,17 @@ const educationEN = [
   }
 ];
 
-export const footer = <div>Built with React Last Update 2/24/2024</div>;
+export const footer = <div>Built with React Last Update 1/12/2024</div>
 
-export const headline = LANG === 'CN' ? headlineCN : headlineEN;
-export const info = infoEN;
-export const projects = LANG === 'EN' ? projectsEN : projectsCN;
-export const experience = LANG === 'EN' ? experienceEN : experienceCN;
-export const education = LANG === 'EN' ? educationEN : educationCN;
+export const headline = LANG === 'EN' ? headlineEN : '';
+export const info = LANG === 'EN' ? infoEN : {};
+export const projects = LANG === 'EN' ? projectsEN : [];
+export const experience = LANG === 'EN' ? experienceEN : [];
+export const education = LANG === 'EN' ? educationEN : [];
 
-
-export const projectTitle = LANG === 'EN' ? 'Open_source Projects' : 'Open-source Projects';
-export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : 'Relevant Experience';
-export const educationTitle = LANG === 'EN' ? 'Education' : 'Education';
-export const contactTitle = LANG === 'EN' ? 'Contacts' : 'Contacts';
-export const languageTitle = LANG === 'EN' ? 'Languages' : 'Languages';
-export const techstackTitle = LANG === 'EN' ? 'Tech Stack' : 'Tech Stack';
-// export const footer = LANG == 'CN' ? footerCN : footerEN;
+export const projectTitle = LANG === 'EN' ? 'Open-source Projects' : '';
+export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : '';
+export const educationTitle = LANG === 'EN' ? 'Education' : '';
+export const contactTitle = LANG === 'EN' ? 'Contacts' : '';
+export const languageTitle = LANG === 'EN' ? 'Languages' : '';
+export const techstackTitle = LANG === 'EN' ? 'Tech Stack' : '';

@@ -126,8 +126,7 @@ const educationEN = [
     loc: "Valdosta, GA",
     time: "2020 ~ 2024, 4 yrs",
     description: [
-      "GPA: 110/110 cum laude",
-      "Research direction: Image generation"
+      "GPA: 3.5"
     ],
   },
   {
@@ -136,7 +135,7 @@ const educationEN = [
     degree: "Certificate in Front End Web Development",
     loc: "www.treehouse.com",
     time: "2024",
-    description: [" "],
+    description: ["Learned to code websites using HTML, CSS, and JavaScript "],
   },
   {
     icon: "treehouse.png",
@@ -152,7 +151,7 @@ const educationEN = [
     degree: "Google Cybersecurity Certificate",
     loc: "www.coursera.org",
     time: "Expected completion: March 2024",
-    description: [" "],
+    description: ["Gaining hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
   },
 ];
 

@@ -136,6 +136,15 @@ const educationEN = [
     description: [
       "GPA: 3.5"
     ],
+    icon: "VSU.png",
+    school: "Treehouse",
+    degree: "Certificate in Front End Web Development",
+    loc: "www.treehouse.com",
+    
+     icon: "VSU.png",
+    school: "Treehouse",
+    degree: "Certificate in Java Basics",
+    loc: "www.treehouse.com",
   },
 ];
 

@@ -138,14 +138,6 @@ const educationEN = [
     description: ["Learned to code websites using HTML, CSS, and JavaScript "],
   },
   {
-    icon: "treehouse.png",
-    school: "Treehouse",
-    degree: "Certificate in Java Basics",
-    loc: "www.treehouse.com",
-    time: "2023",
-    description: [" "],
-  },
-  {
     icon: "google.png",
     school: "Google",
     degree: "Google Cybersecurity Certificate",

@@ -25,6 +25,11 @@ const infoEN = {
       name: "LinkedIn - Madelyn Adams",
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
+     {
+      icon: <i className="ri-website-box-fill"></i>,
+      name: "Website - Madelyn Adams",
+      url: "www.madelyn-adams-resume.com",
+    },
   ],
   language: ["English (native)", "Italian (beginner)"],
   techstack: [

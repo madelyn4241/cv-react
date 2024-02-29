@@ -161,7 +161,7 @@ const educationEN = [
 ];
 
 
-const educationEn = [
+const educationEN = [
   {
     icon: "VSU.png",
     school: "Valdosta State University",
@@ -170,27 +170,29 @@ const educationEn = [
     time: "2020 ~ 2024, 4 years",
     description: [
       "GPA: 3.5"
-    ],
-       icon: "treehouse.png",
+    ]
+  },
+  {
+    icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Front End Web Development",
     loc: "www.treehouse.com",
-    time: "Completed in 2024",
-    
-     icon: "treehouse.png",
+    time: "Completed in 2024"
+  },
+  {
+    icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Java Basics",
     loc: "www.treehouse.com",
-    time: "Completed in 2023",
-    
-      icon: "google.png",
+    time: "Completed in 2023"
+  },
+  {
+    icon: "google.png",
     school: "Google",
     degree: "Certificate in Java Basics",
     loc: "www.treehouse.com",
-    time: "Currently enrolled, expected completion March 2024",
-    
-  },
-
+    time: "Currently enrolled, expected completion March 2024"
+  }
 ];
 
 export const footer = <div>Built with React Last Update 2/24/2024</div>

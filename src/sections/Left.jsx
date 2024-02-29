@@ -19,7 +19,7 @@ export default function Left() {
       <Section title={contactTitle}>
         {info.contact.map((item) => (
           <a href={item.url} target="_blank">
-            <button class="badge badge-primary gap-2 mr-2 my-2">
+            <button class="badge badge-primary gap-2 mr-2 my-2" style={{ fontSize: "14px" }}>
               {item.icon} {item.name}
             </button>
           </a>

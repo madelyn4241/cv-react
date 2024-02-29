@@ -1,9 +1,10 @@
-const LANG = 'EN';  // EN, CN
+const LANG = 'EN'  // EN, CN
+
 
 const headlineEN = "Computer Information Systems graduate with hands-on experience in Python and React, seeking an entry-level tech position to apply skills in web development and problem-solving.";
 
 const infoEN = {
-    contact: [
+  contact: [
     {
       icon: <i className="ri-mail-send-line"></i>,
       name: "maddi.a42436@gmail.com",
@@ -55,7 +56,7 @@ const infoEN = {
 };
 
 const experienceEN = [
-    {
+  {
     icon: "Synovus.png",
     company: "Synovus Bank",
     pos: "Relationship Specialist",
@@ -93,7 +94,7 @@ const experienceEN = [
 ];
 
 const projectsEN = [
-    {
+  {
     icon: "global.svg",
     name: "https://madelyn4241.github.io/learnReactJs/",
     link: "https://madelyn4241.github.io/learnReactJs/",
@@ -114,51 +115,61 @@ const projectsEN = [
 
 ];
 
+
+
+
 const educationEN = [
-    {
+  {
     icon: "VSU.png",
     school: "Valdosta State University",
     degree: "Bachelor's in Computer Information Systems",
-    loc: "Valdosta, GA ",
-    time: "2020 ~ 2024, 4 years",
+    loc: "Valdosta, GA",
+    time: "2020 ~ 2024, 4 yrs",
     description: [
-      "GPA: 3.5"
-    ]
+      "GPA: 110/110 cum laude",
+      "Research direction: Image generation"
+    ],
   },
   {
     icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Front End Web Development",
     loc: "www.treehouse.com",
-    time: "Completed in 2024"
+    time: "2024",
+    description: [" "],
   },
   {
     icon: "treehouse.png",
     school: "Treehouse",
     degree: "Certificate in Java Basics",
     loc: "www.treehouse.com",
-    time: "Completed in 2023"
+    time: "2023",
+    description: [" "],
   },
   {
     icon: "google.png",
     school: "Google",
-    degree: "Certificate in Java Basics",
+    degree: "Google Cybersecurity Certificate",
     loc: "www.treehouse.com",
-    time: "Currently enrolled, expected completion March 2024"
-  }
+    time: "Expected completion: March 2024",
+    description: [" "],
+  },
 ];
+
+
 
 export const footer = <div>Built with React Last Update 1/12/2024</div>
 
-export const headline = LANG === 'EN' ? headlineEN : '';
-export const info = LANG === 'EN' ? infoEN : {};
-export const projects = LANG === 'EN' ? projectsEN : [];
-export const experience = LANG === 'EN' ? experienceEN : [];
-export const education = LANG === 'EN' ? educationEN : [];
+export const headline = LANG == 'CN' ? headlineCN : headlineEN
+export const info = LANG == 'CN' ? infoCN : infoEN
+export const projects = LANG == 'CN' ? projectsCN : projectsEN
+export const experience = LANG == 'CN' ? experienceCN : experienceEN
+export const education = LANG == 'CN' ? educationCN : educationEN
 
-export const projectTitle = LANG === 'EN' ? 'Open-source Projects' : '';
-export const experienceTitle = LANG === 'EN' ? 'Relevant Experience' : '';
-export const educationTitle = LANG === 'EN' ? 'Education' : '';
-export const contactTitle = LANG === 'EN' ? 'Contacts' : '';
-export const languageTitle = LANG === 'EN' ? 'Languages' : '';
-export const techstackTitle = LANG === 'EN' ? 'Tech Stack' : '';
+export const projectTitle = LANG == 'CN' ? '开源项目' : 'Open-source Projects'
+export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
+export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
+export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
+export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'
+export const techstackTitle = LANG == 'CN' ? '技术栈' : 'Tech Stack'
+// export const footer = LANG == 'CN' ? footerCN : footerEN

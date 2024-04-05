@@ -1,7 +1,7 @@
 const LANG = 'EN'  // EN, CN
 
 
-const headlineEN = "Computer Information Systems graduate with hands-on experience in Java and React, seeking an entry-level tech position to apply skills in web development and problem-solving.";
+const headlineEN = "Upcoming Computer Information Systems graduate with hands-on experience in banking operations, financial analysis, and client relationship management, seeking a position in investment banking to leverage skills in problem-solving and financial analysis.";
 
 const infoEN = {
   contact: [

@@ -37,7 +37,7 @@ const infoEN = {
       name: "JavaScript",
     },
     {
-      icon: "react.svg",
+      icon: "SQL.jpeg",
       name: "SQL",
     },
     {

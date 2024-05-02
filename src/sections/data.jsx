@@ -1,7 +1,7 @@
 const LANG = 'EN'  // EN, CN
 
 
-const headlineEN = "Upcoming Computer Information Systems graduate with hands-on experience in banking operations, financial analysis, and client relationship management, seeking a position in investment banking to leverage skills in problem-solving and financial analysis.";
+const headlineEN = "Recent Computer Information Systems graduate with a passion for cybersecurity. Seeking an entry-level position in cybersecurity to leverage skills in networking, system security, and incident response gained through academic coursework and practical certification.";
 
 const infoEN = {
   contact: [
@@ -38,7 +38,7 @@ const infoEN = {
     },
     {
       icon: "react.svg",
-      name: "React",
+      name: "SQL",
     },
     {
       icon: "html.png",
@@ -47,10 +47,6 @@ const infoEN = {
     {
       icon: "css.png",
       name: "CSS",
-    },
-    {
-      icon: "vite.png",
-      name: "Vite",
     },
   ],
 };
@@ -65,7 +61,7 @@ const experienceEN = [
     description: [
       "Cultivated strong relationships with clients, providing exceptional customer service and addressing financial needs",
       "Demonstrated strong problem-solving abilities and attention to detail in resolving client issues.",
-      "Created customized packages for customers based on financial targets and current capabilities."
+      "Contributed to the reduction of fraudulent activities through proactive monitoring."
     ]
   },
   {
@@ -77,7 +73,7 @@ const experienceEN = [
     description: [
       "Assisted clients with various banking services, including account management, transactions, and loan applications",
       "Ensured compliance with banking regulations and maintained confidentiality of customer information.",
-      "Reduced bank fraud with proactive customer monitoring and in-depth checks on suspicious transactions."
+      "Implemented proactive measures to monitor and prevent fraudulent activities."
     ]
   },
   {
@@ -88,7 +84,7 @@ const experienceEN = [
     time: "2018-2020",
     description: [
       "Achieved and exceeded sales targets by effectively promoting wireless products and services.",
-      "Developed excellent communication and negotiation skills while interacting with diverse customers.",
+      "Developed strong communication and negotiation skills.",
     ]
   },
 ];
@@ -124,7 +120,7 @@ const educationEN = [
     school: "Valdosta State University",
     degree: "Bachelor's in Computer Information Systems",
     loc: "Valdosta, GA",
-    time: "2020 ~ 2024, 4 yrs",
+    time: "4 yrs",
     description: [
       "GPA: 3.5"
     ],
@@ -142,8 +138,8 @@ const educationEN = [
     school: "Google",
     degree: "Google Cybersecurity Certificate",
     loc: "www.coursera.org",
-    time: "Expected completion: March 2024",
-    description: ["Gaining hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
+    time: "April 2024",
+    description: ["Gained hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
   },
 ];
 

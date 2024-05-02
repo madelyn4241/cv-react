@@ -90,15 +90,7 @@ const experienceEN = [
 ];
 
 const projectsEN = [
-  {
-    icon: "global.svg",
-    name: "https://madelyn4241.github.io/learnReactJs/",
-    link: "https://madelyn4241.github.io/learnReactJs/",
-    year: 2024,
-    description: [
-      "The 'Build a Hero' web application using React and Vite that integrates user interactions. "
-    ],
-  },
+ 
   {
     icon: "global.svg",
     name: "https://madelyn4241.github.io/ToDo/",

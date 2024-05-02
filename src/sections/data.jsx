@@ -120,7 +120,7 @@ const educationEN = [
     school: "Valdosta State University",
     degree: "Bachelor's in Computer Information Systems",
     loc: "Valdosta, GA",
-    time: "4 yrs",
+    time: "2024",
     description: [
       "GPA: 3.5"
     ],

@@ -1,4 +1,4 @@
-import { education, experience, projects } from "./data";
+import { education, experience } from "./data";
 import { experienceTitle, educationTitle } from "./data";
 
 
@@ -33,43 +33,7 @@ function Experience() {
 }
 
 
-function Projects() {
-  return (
-    <div class="bg-primary text-white text-justify rounded-box flex flex-col items-start py-3 px-4">
-      <h2 class="font-bold text-xl mb-2">{projectTitle}</h2>
-      {projects.map((item) => (
-        <div class="flex flex-col w-[32rem]">
-          <div class="flex flex-row gap-2 items-center">
-            <img class="w-6 h-6 rounded-lg" src={item.icon} />
-            <a
-              class="font-bold underline text-info-content"
-              href={item.link}
-              title={item.name}
-              target="_blank"
-            >
-              {item.name}
-              &nbsp;<i class="ri-external-link-line"></i>
-            </a>
-            {item.metric? 
-            <div class="flex flex-row gap-2 text-info-content">
-              <span class="flex flex-row"><i class="ri-star-line"/>{item.metric.star}</span>
-              <span class="flex flex-row"><i class="ri-git-branch-line"/>{item.metric.fork}</span>
-            </div> : null}
-            <div class="text-sm ml-auto text-primary-content">{item.year}</div>
-          </div>
 
-          <div class="ml-6">
-            {item.description.map((p) => (
-              <p class="text-sm">
-               {p}
-              </p>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
 
 
 function Education() {

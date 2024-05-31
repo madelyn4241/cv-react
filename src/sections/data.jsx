@@ -26,7 +26,7 @@ const infoEN = {
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
   ],
-  language: ["English (native)", "Italian (beginner)"],
+  language: ["English (native)"],
   techstack: [
     {
       icon: "python.png",
@@ -89,20 +89,6 @@ const experienceEN = [
   },
 ];
 
-const projectsEN = [
- 
-  {
-    icon: "global.svg",
-    name: "https://madelyn4241.github.io/ToDo/",
-    link: "https://madelyn4241.github.io/ToDo/",
-    year: 2024,
-    description: [
-      "The To-Do List website is a user-friendly task management application with a visually appealing interface, allowing users to add, remove, and mark tasks as completed in a clean and organized manner."
-    ],
-  }
-
-];
-
 
 
 
@@ -122,7 +108,7 @@ const educationEN = [
     school: "Treehouse",
     degree: "Certificate in Front End Web Development",
     loc: "www.treehouse.com",
-    time: "2024",
+    time: "Jan 2024",
     description: ["Learned to code websites using HTML, CSS, and JavaScript "],
   },
   {
@@ -130,8 +116,16 @@ const educationEN = [
     school: "Google",
     degree: "Google Cybersecurity Certificate",
     loc: "www.coursera.org",
-    time: "April 2024",
+    time: "May 2024",
     description: ["Gained hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
+  },
+    {
+    icon: "comptia.png",
+    school: "CompTIA",
+    degree: "Security+",
+    loc: "CompTIA",
+    time: "May 2024",
+    description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards."],
   },
 ];
 
@@ -141,11 +135,11 @@ export const footer = <div>Built with React Last Update 5/2/2024</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN
-export const projects = LANG == 'CN' ? projectsCN : projectsEN
+
 export const experience = LANG == 'CN' ? experienceCN : experienceEN
 export const education = LANG == 'CN' ? educationCN : educationEN
 
-export const projectTitle = LANG == 'CN' ? '开源项目' : 'Open-source Projects'
+
 export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
 export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'

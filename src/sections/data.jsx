@@ -125,7 +125,7 @@ const educationEN = [
     degree: "Security+",
     loc: "CompTIA",
     time: "May 2024",
-    description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards."],
+    description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards. "],
   },
 ];
 

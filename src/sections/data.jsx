@@ -131,7 +131,7 @@ const educationEN = [
 
 
 
-export const footer = <div>Built with React Last Update 5/2/2024</div>
+export const footer = <div>Built with React Last Update 5/31/2024</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN

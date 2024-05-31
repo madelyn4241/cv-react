@@ -70,7 +70,6 @@ export default function Right() {
   return (
     <div class="flex flex-col gap-3 pt-3">
       <Experience />
-      <Projects />
       <Education />
     </div>
   );

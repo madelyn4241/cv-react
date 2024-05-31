@@ -1,5 +1,5 @@
 import { education, experience, projects } from "./data";
-import { projectTitle, experienceTitle, educationTitle } from "./data";
+import { experienceTitle, educationTitle } from "./data";
 
 
 function Experience() {

@@ -52,6 +52,18 @@ const infoEN = {
 };
 
 const experienceEN = [
+    {
+    icon: "PurpleBox.png",
+    company: "PurpleBox Inc.",
+    pos: "CyberSecurity Analyst",
+    loc: "Marietta, GA",
+    time: "July 2024 - Current",
+    description: [
+      "Conducted vulnerability assessments and penetration testing to identify and mitigate security risks.",
+      "Monitored and responded to security incidents using SIEM tools and implemented security policies and controls.",
+      "Collaborated with cross-functional teams to design and deploy security solutions, ensuring compliance with industry standards."
+    ]
+  },
   {
     icon: "Synovus.png",
     company: "Synovus Bank",
@@ -59,7 +71,7 @@ const experienceEN = [
     loc: "Marietta, GA",
     time: "Jan 2022 - Current",
     description: [
-      "Cultivated strong relationships with clients, providing exceptional customer service and addressing financial needs",
+      "Cultivated strong relationships with clients, providing exceptional customer service and addressing financial needs.",
       "Demonstrated strong problem-solving abilities and attention to detail in resolving client issues.",
       "Contributed to the reduction of fraudulent activities through proactive monitoring."
     ]

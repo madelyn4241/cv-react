@@ -1,7 +1,7 @@
 const LANG = 'EN'  // EN, CN
 
 
-const headlineEN = "Recent Computer Information Systems graduate with a passion for cybersecurity. Seeking an entry-level position in cybersecurity to leverage skills in networking, system security, and incident response gained through academic coursework and practical certification.";
+const headlineEN = "Cybersecurity Analyst with experience in vulnerability assessments, incident response, and security solutions. Seeking to further develop expertise and contribute to securing networks and systems in a dynamic cybersecurity environment.";
 
 const infoEN = {
   contact: [

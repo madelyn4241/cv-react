@@ -143,7 +143,7 @@ const educationEN = [
     icon: "AWS.jpeg",
     school: "AWS",
     degree: "Cloud Practitioneer",
-    loc: "CompTIA",
+    loc: "AWS",
     time: "August 2024",
     description: ["Gained foundational knowledge of AWS cloud services, including cloud security, architecture, and billing practices."],
   },

@@ -139,6 +139,14 @@ const educationEN = [
     time: "May 2024",
     description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards. "],
   },
+  {
+    icon: "AWS.jpeg",
+    school: "AWS",
+    degree: "Cloud Practitioneer",
+    loc: "CompTIA",
+    time: "August 2024",
+    description: ["Gained foundational knowledge of AWS cloud services, including cloud security, architecture, and billing practices."],
+  },
 ];
 
 

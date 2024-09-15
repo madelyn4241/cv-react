@@ -88,17 +88,6 @@ const experienceEN = [
       "Implemented proactive measures to monitor and prevent fraudulent activities."
     ]
   },
-  {
-    icon: "Wireless Advocates.jpeg",
-    company: "Wireless Advocates",
-    pos: "Sales Representative",
-    loc: "Jacksonville, NC",
-    time: "2018-2020",
-    description: [
-      "Achieved and exceeded sales targets by effectively promoting wireless products and services.",
-      "Developed strong communication and negotiation skills.",
-    ]
-  },
 ];
 
 
@@ -114,14 +103,6 @@ const educationEN = [
     description: [
       "GPA: 3.5"
     ],
-  },
-  {
-    icon: "treehouse.png",
-    school: "Treehouse",
-    degree: "Certificate in Front End Web Development",
-    loc: "www.treehouse.com",
-    time: "Jan 2024",
-    description: ["Learned to code websites using HTML, CSS, and JavaScript "],
   },
   {
     icon: "google.png",

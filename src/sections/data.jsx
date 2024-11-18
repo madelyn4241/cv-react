@@ -71,7 +71,6 @@ const experienceEN = [
     loc: "Marietta, GA",
     time: "Jan 2022 - Current",
     description: [
-      "Cultivated strong relationships with clients, providing exceptional customer service and addressing financial needs.",
       "Demonstrated strong problem-solving abilities and attention to detail in resolving client issues.",
       "Contributed to the reduction of fraudulent activities through proactive monitoring."
     ]
@@ -83,7 +82,6 @@ const experienceEN = [
     loc: "El Paso, TX",
     time: "2020-2022",
     description: [
-      "Assisted clients with various banking services, including account management, transactions, and loan applications",
       "Ensured compliance with banking regulations and maintained confidentiality of customer information.",
       "Implemented proactive measures to monitor and prevent fraudulent activities."
     ]
@@ -128,6 +126,14 @@ const educationEN = [
     time: "August 2024",
     description: ["Gained foundational knowledge of AWS cloud services, including cloud security, architecture, and billing practices."],
   },
+  {
+    icon: "isc2.png",
+    school: "ISC2",
+    degree: "Certified in Cybersecurity Certification",
+    loc: "ISC2",
+    time: "October 2024",
+    description: ["Demonstrated foundational knowledge in cybersecurity concepts, including network security, access controls, risk management, and security operations. Validated understanding of best practices for securing systems and mitigating cyber threats."],
+  }
 ];
 
 

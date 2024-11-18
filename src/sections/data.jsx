@@ -1,7 +1,7 @@
 const LANG = 'EN'  // EN, CN
 
 
-const headlineEN = "Cybersecurity Analyst with experience in vulnerability assessments, incident response, and security solutions. Seeking to further develop expertise and contribute to securing networks and systems in a dynamic cybersecurity environment.";
+const headlineEN = "Cybersecurity engineer with experience in vulnerability assessments, incident response, and security solutions. Seeking to further develop expertise and contribute to securing networks and systems in a dynamic cybersecurity environment.";
 
 const infoEN = {
   contact: [
@@ -59,7 +59,7 @@ const experienceEN = [
     loc: "Marietta, GA",
     time: "July 2024 - Current",
     description: [
-      "Conducted vulnerability assessments and penetration testing to identify and mitigate security risks.",
+      "Assisted in the delivery of vulnerability assessments and penetration testing reports by collaborating with technical teams to compile findings and present actionable recommendations to customers.",
       "Monitored and responded to security incidents using SIEM tools and implemented security policies and controls.",
       "Collaborated with cross-functional teams to design and deploy security solutions, ensuring compliance with industry standards."
     ]

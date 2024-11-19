@@ -26,7 +26,12 @@ const infoEN = {
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
   ],
+  language: ["English (native)"],
   techstack: [
+    {
+      icon: "python.png",
+      name: "Python",
+    },
     {
       icon: "js.png",
       name: "JavaScript",
@@ -66,65 +71,19 @@ const experienceEN = [
     loc: "Marietta, GA",
     time: "Jan 2022 - Current",
     description: [
+      "Cultivated strong relationships with clients, providing exceptional customer service and addressing financial needs.",
       "Demonstrated strong problem-solving abilities and attention to detail in resolving client issues.",
       "Contributed to the reduction of fraudulent activities through proactive monitoring."
     ]
-  },
-  {
-    icon: "PNC.png",
-    company: "PNC",
-    pos: "Financial Solutions Consultant",
+@@ -83,7 +82,6 @@
     loc: "El Paso, TX",
     time: "2020-2022",
     description: [
+      "Assisted clients with various banking services, including account management, transactions, and loan applications",
       "Ensured compliance with banking regulations and maintained confidentiality of customer information.",
       "Implemented proactive measures to monitor and prevent fraudulent activities."
     ]
-  },
-];
-
-
-
-
-const educationEN = [
-    {
-    icon: "WGU.jpeg",
-    school: "Western Governor's University",
-    degree: "Master's in Cybersecurity and Information Assurance",
-    loc: "Online",
-    time: "October 2024-July 2025",
-  },
-  {
-    icon: "VSU.png",
-    school: "Valdosta State University",
-    degree: "Bachelor's in Computer Information Systems",
-    loc: "Valdosta, GA",
-    time: "2024",
-    description: [
-      "GPA: 3.5"
-    ],
-  },
-  {
-    icon: "google.png",
-    school: "Google",
-    degree: "Google Cybersecurity Certificate",
-    loc: "www.coursera.org",
-    time: "May 2024",
-    description: ["Gained hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
-  },
-    {
-    icon: "comptia.png",
-    school: "CompTIA",
-    degree: "Security+",
-    loc: "CompTIA",
-    time: "May 2024",
-    description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards. "],
-  },
-  {
-    icon: "AWS.jpeg",
-    school: "AWS",
-    degree: "Cloud Practitioneer",
-    loc: "AWS",
+@@ -128,22 +126,30 @@
     time: "August 2024",
     description: ["Gained foundational knowledge of AWS cloud services, including cloud security, architecture, and billing practices."],
   },
@@ -152,6 +111,6 @@ export const education = LANG == 'CN' ? educationCN : educationEN
 export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
 export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
-export const languageTitle = LANG == 'CN' ? '语言能力' : 'Professional Involvement'
+export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'
 export const techstackTitle = LANG == 'CN' ? '技术栈' : 'Tech Stack'
 // export const footer = LANG == 'CN' ? footerCN : footerEN

@@ -75,7 +75,11 @@ const experienceEN = [
       "Demonstrated strong problem-solving abilities and attention to detail in resolving client issues.",
       "Contributed to the reduction of fraudulent activities through proactive monitoring."
     ]
-@@ -83,7 +82,6 @@
+  },
+      {
+    icon: "PNC.png",
+    company: "PNC",
+    pos: "Financial Solutions Consultant",
     loc: "El Paso, TX",
     time: "2020-2022",
     description: [
@@ -83,10 +87,46 @@ const experienceEN = [
       "Ensured compliance with banking regulations and maintained confidentiality of customer information.",
       "Implemented proactive measures to monitor and prevent fraudulent activities."
     ]
-@@ -128,22 +126,30 @@
+}];
+const eductionEN = [
+    {
+    icon: "VSU.png",
+    school: "Valdosta State University",
+    degree: "Bachelor's in Computer Information Systems ",
+    loc: "Valdosta, GA",
+    time: "2020-2024",
+    gpa: [" 3.5 "],
+  }, 
+   {
+    icon: "WGU.jpeg",
+    school: "Western Governor's University",
+    degree: "Master's in Cybersecurity and Information Assurance",
+    loc: "Online",
+    time: "October 2024 - July 2025",
+  },
+  {
+    icon: "comptia.png",
+    school: "CompTIA",
+    degree: "Security+",
+    loc: "CompTIA",
+    time: "May 2024",
+    description: ["Acquired comprehensive knowledge in securing networks, managing vulnerabilities, implementing access controls, and ensuring compliance with security standards."] }, 
+ {
+    icon: "google.png",
+    school: "Google",
+    degree: "Google Cybersecurity Certificate",
+    loc: "www.coursera.org",
+    time: "May 2024",
+    description: ["Gained hands-on expertise in networking, system security, and incident response to demonstrate proficiency in cybersecurity practices."],
+  }, 
+  {
+    icon: "AWS.png",
+    school: "AWS",
+    degree: "Cloud Practitioner",
+    loc: "AWS",
     time: "August 2024",
     description: ["Gained foundational knowledge of AWS cloud services, including cloud security, architecture, and billing practices."],
-  },
+  }, 
   {
     icon: "isc2.png",
     school: "ISC2",
@@ -94,7 +134,7 @@ const experienceEN = [
     loc: "ISC2",
     time: "October 2024",
     description: ["Demonstrated foundational knowledge in cybersecurity concepts, including network security, access controls, risk management, and security operations. Validated understanding of best practices for securing systems and mitigating cyber threats."],
-  }
+  }, 
 ];
 
 

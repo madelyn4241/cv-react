@@ -93,7 +93,7 @@ const experienceEN = [
 
 const educationEN = [
     {
-    icon: "WGU.png",
+    icon: "WGU.jpeg",
     school: "Western Governor's University",
     degree: "Master's in Cybersecurity and Information Assurance",
     loc: "Online",

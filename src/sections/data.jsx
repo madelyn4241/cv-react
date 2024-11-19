@@ -26,12 +26,7 @@ const infoEN = {
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
   ],
-  language: ["Active Member and Volunteer: ISSA Marietta Chapter – Regularly contribute to community cybersecurity events and initiatives."],
   techstack: [
-    {
-      icon: "python.png",
-      name: "Python",
-    },
     {
       icon: "js.png",
       name: "JavaScript",

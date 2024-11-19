@@ -26,7 +26,7 @@ const infoEN = {
       url: "https://www.linkedin.com/in/madelyn-adams-3b6a73159/",
     },
   ],
-  language: ["English (native)"],
+  language: ["Active Member and Volunteer: ISSA Marietta Chapter – Regularly contribute to community cybersecurity events and initiatives."],
   techstack: [
     {
       icon: "python.png",
@@ -92,6 +92,13 @@ const experienceEN = [
 
 
 const educationEN = [
+    {
+    icon: "WGU.png",
+    school: "Western Governor's University",
+    degree: "Master's in Cybersecurity and Information Assurance",
+    loc: "Online",
+    time: "October 2024-July 2025",
+  },
   {
     icon: "VSU.png",
     school: "Valdosta State University",
@@ -150,6 +157,6 @@ export const education = LANG == 'CN' ? educationCN : educationEN
 export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
 export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
-export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'
+export const languageTitle = LANG == 'CN' ? '语言能力' : 'Professional Involvement'
 export const techstackTitle = LANG == 'CN' ? '技术栈' : 'Tech Stack'
 // export const footer = LANG == 'CN' ? footerCN : footerEN
